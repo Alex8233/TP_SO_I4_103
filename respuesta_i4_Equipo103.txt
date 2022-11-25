@@ -1,0 +1,13 @@
+A-Azul.
+B-Amarillo.
+C-Azul.
+D-En el master quedó el de beta.
+
+E-Beta y Gamma tuvieron problemas.
+F-El problema fue que había cambios en el remoto que no teníamos de forma local.
+G-Las soluciones que se nos ocurren es la de usar git pull -f, pero con esta los cambios en el remoto se
+pisarían o perderían. Por otro lado podemos usar git pull y luego hacer los cambios y el push para que
+no se pierda nada.
+H-Se pisarían los cambios anteriores guardados en el remoto.
+I-Para lograr esto se debería utilizar el git pull luego de cada cambio en el remoto, y luego de esto, realizar
+los cambios que se deseen.
